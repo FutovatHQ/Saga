@@ -9,5 +9,7 @@ namespace Saga.API.Data
         {
         }
         public DbSet<SagaData> Sagas { get; set; }
+        public DbSet<Chapter> Chapter { get; set; }
+        public DbSet<Quest> Quest { get; set; }
     }
 }
