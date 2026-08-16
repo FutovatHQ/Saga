@@ -1,0 +1,77 @@
+.chapter-card {
+  background: white;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chapter-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.chapter-buttons {
+  display: flex;
+
+  gap: 10px;
+}
+
+.quest-section {
+  margin-top: 20px;
+
+  border-top: 1px solid #e5e7eb;
+
+  padding-top: 20px;
+}
+
+.quest-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.quest-card {
+  background: #f8fafc;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  margin-bottom: 10px;
+}
+
+.quest-card p {
+  margin-top: 5px;
+
+  color: #64748b;
+}
+
+.no-quests {
+  color: #94a3b8;
+}
+
+.add-button {
+  border: none;
+
+  background: #2563eb;
+
+  color: white;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}

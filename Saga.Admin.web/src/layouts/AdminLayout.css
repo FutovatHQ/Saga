@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+}
+
+.admin-layout{
+
+    display:flex;
+
+    height:100vh;
+}
+
+.sidebar{
+
+    width:260px;
+
+    background:#1F2937;
+
+    color:white;
+}
+
+.main-content{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    background:#F8FAFC;
+}
+
+.header{
+
+    height:70px;
+
+    background:white;
+
+    border-bottom:1px solid #E5E7EB;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 30px;
+}
+
+.page-content{
+
+    flex:1;
+
+    padding:30px;
+}

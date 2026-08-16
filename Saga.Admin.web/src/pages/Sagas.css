@@ -1,0 +1,37 @@
+.page-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.page-header p {
+  margin-top: 8px;
+
+  color: #64748b;
+}
+
+.create-button {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 14px 22px;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.create-button:hover {
+  background: #1d4ed8;
+}

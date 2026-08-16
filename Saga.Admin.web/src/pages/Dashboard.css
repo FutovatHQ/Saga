@@ -1,0 +1,13 @@
+.welcome {
+  color: #64748b;
+
+  margin-top: 10px;
+
+  margin-bottom: 35px;
+}
+
+.stats {
+  display: flex;
+
+  gap: 25px;
+}
